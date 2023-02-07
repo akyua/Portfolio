@@ -1,0 +1,54 @@
+@import '../abstract/variaveis';
+
+header{
+    width: 100%;
+    padding: 20px;
+    background: $cor-background-header;
+    position: fixed;
+    height: auto;
+    nav{
+        max-width: 1200px;
+        margin: 0 auto;
+        .navbar-brand{
+            font-size: $tamanho-fonte;
+        }
+        div{
+            ul{
+                column-gap: 40px;
+                li{
+                    a{
+                        color: $cor-fonte;
+                        font-size: $tamanho-fonte;
+                        &::after{
+                            content: "";
+                            display: block;
+                            border-bottom: 2px solid $cor-background;
+                            margin-top: 5px;
+                            transform: scaleX(0);
+                            transition: transform 0.3s ease;
+                        }
+                        
+                        &:hover::after{
+                            transform: scaleX(1);
+                        }
+                        &:hover{
+                            color: $cor-background; 
+                            transition: 300ms linear;
+                        }
+
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 992px){
+    header nav a::after{
+        display: none;
+    }
+    
+    header nav a:hover::after{
+        transform: none;
+    }
+}
