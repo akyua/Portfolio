@@ -22,7 +22,7 @@ header{
                         &::after{
                             content: "";
                             display: block;
-                            border-bottom: 2px solid $cor-background;
+                            border-bottom: 2px solid $cor-efeito;
                             margin-top: 5px;
                             transform: scaleX(0);
                             transition: transform 0.3s ease;
@@ -32,7 +32,7 @@ header{
                             transform: scaleX(1);
                         }
                         &:hover{
-                            color: $cor-background; 
+                            color: $cor-efeito; 
                             transition: 300ms linear;
                         }
 
