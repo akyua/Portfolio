@@ -1,5 +1,25 @@
 .App {
   text-align: center;
+  font-family: Poppins;
+}
+
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #202324 #ffffff;
+}
+
+/* Works on Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+  width: 8px;
+}
+
+*::-webkit-scrollbar-track {
+  background: #202324;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #ffffff;
+  border-radius: 20px;
 }
 
 .App-logo {
@@ -35,4 +55,10 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+@font-face {
+  font-family: Poppins;
+  src: url('./assets/font/Poppins-Medium.ttf');
+  font-weight: 400;
 }

@@ -1,5 +1,7 @@
 .navbar {
   background-color: rgba(41, 35, 35, 0.664);
+  font-size: 17.3333333333px;
+  border-bottom: 3px solid #FFF;
 }
 .navbar .nav-link {
   color: white;
@@ -11,5 +13,5 @@
 }
 
 img {
-  width: 50px;
+  width: 60px;
 }/*# sourceMappingURL=Navbar.css.map */
