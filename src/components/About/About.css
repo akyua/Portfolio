@@ -1,1 +1,81 @@
-/*# sourceMappingURL=About.css.map */
+#aboutme {
+  background-color: #212529;
+}
+#aboutme .aboutme-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 80%;
+  margin: auto;
+  padding: 80px 0;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+#aboutme .aboutme-container div {
+  min-width: 30%;
+}
+#aboutme .aboutme-container div img {
+  width: 80%;
+}
+#aboutme .aboutme-container aside {
+  display: flex;
+  flex-direction: column;
+  line-height: 1.5rem;
+  width: 50%;
+  gap: 2rem;
+}
+#aboutme .aboutme-container aside h2 {
+  color: #FFF;
+  font-size: 39px;
+  text-transform: uppercase;
+}
+#aboutme .aboutme-container aside h3 {
+  color: #FFF;
+  font-size: 23.4px;
+}
+#aboutme .aboutme-container aside p {
+  color: #FFF;
+  font-size: 18.2px;
+}
+#aboutme .aboutme-container aside a {
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+}
+#aboutme .aboutme-container aside a div {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 10px 10px;
+  border-radius: 8px;
+  border: 3px solid #FFF;
+  transition: 0.3s;
+  letter-spacing: 1.5px;
+  gap: 5px;
+  transition: 0.3s;
+  height: 50px;
+}
+#aboutme .aboutme-container aside a div img {
+  width: 24px;
+  height: 24px;
+}
+#aboutme .aboutme-container aside a div:hover {
+  transform: scale(1.1);
+  background-color: #303030;
+}
+
+@media (max-width: 880px) {
+  #aboutme {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+  }
+  #aboutme .aboutme-container {
+    width: 80%;
+  }
+  #aboutme .aboutme-container aside {
+    width: 80%;
+  }
+}/*# sourceMappingURL=About.css.map */
