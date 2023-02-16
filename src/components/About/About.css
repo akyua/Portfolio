@@ -1,5 +1,5 @@
 #aboutme {
-  background-color: #212529;
+  background-color: #171a1d;
 }
 #aboutme .aboutme-container {
   display: flex;
@@ -17,6 +17,7 @@
 }
 #aboutme .aboutme-container div img {
   width: 80%;
+  border-radius: 20px;
 }
 #aboutme .aboutme-container aside {
   display: flex;
@@ -40,8 +41,9 @@
 }
 #aboutme .aboutme-container aside a {
   display: flex;
-  justify-content: center;
+  align-self: center;
   text-decoration: none;
+  width: 40%;
 }
 #aboutme .aboutme-container aside a div {
   display: flex;
@@ -55,6 +57,7 @@
   gap: 5px;
   transition: 0.3s;
   height: 50px;
+  width: 100%;
 }
 #aboutme .aboutme-container aside a div img {
   width: 24px;
