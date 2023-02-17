@@ -13,10 +13,10 @@ const Header = () => {
       </Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse className="justify-content-end">
-        <Nav.Link href="#home" className='nav-link'>Home</Nav.Link>
-        <Nav.Link href="#sobre" className='nav-link'>Sobre</Nav.Link>
+        <Nav.Link href="#home" className='nav-link'>Inicio</Nav.Link>
+        <Nav.Link href="#aboutme" className='nav-link'>Sobre</Nav.Link>
         <Nav.Link href="#projects" className='nav-link'>Projetos</Nav.Link>
-        <Nav.Link href="#skills" className='nav-link'>Skills</Nav.Link>
+        <Nav.Link href="#skills" className='nav-link'>Habilidades</Nav.Link>
       </Navbar.Collapse>
     </Container>
   </Navbar>

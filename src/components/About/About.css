@@ -50,7 +50,7 @@
   display: flex;
   flex-direction: row;
   justify-content: center;
-  padding: 10px 10px;
+  padding: 10px 100px;
   border-radius: 8px;
   border: 3px solid #FFF;
   transition: 0.3s;
@@ -58,7 +58,7 @@
   gap: 5px;
   transition: 0.3s;
   height: 50px;
-  width: 210px;
+  width: auto;
 }
 #aboutme .aboutme-container aside a div img {
   width: 24px;
@@ -88,7 +88,7 @@
     justify-content: center;
   }
   #aboutme .aboutme-container aside a div {
-    width: 150px;
+    width: auto;
     height: 50px;
     padding: 10px 100px;
   }
