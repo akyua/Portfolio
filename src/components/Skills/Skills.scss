@@ -1,1 +1,82 @@
 @import '../../abstract/variables';
+
+#skills{
+    background-color: $color-container-about;
+    padding: 80px 0;
+    color: #FFF;
+    h2{
+        text-transform: uppercase;
+        font-size: calc($font-size * 1.5);
+    }
+    div{
+        display: flex;
+        flex-wrap: wrap;
+        margin: auto 200px;
+        justify-content: center;
+        align-items: center;
+        div{
+            padding: 40px;
+            width: 15rem;
+            height: 15rem;
+            border-radius: 25px;
+            background-color: #000000;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin: 40px 50px;
+            h3{
+                z-index: 1;
+            }
+            img{
+                box-sizing: border-box;
+                border: none;
+                margin-bottom: 20px;
+                width: 80px;
+                height: 80px;
+            }
+            span{
+                display: none;
+            &::before{
+                content: "";
+                position: absolute;
+                width: 5rem;
+                height: 17rem;
+                left: 4.5rem;
+                top: -40%;
+                background: rgb(3, 40, 252);
+                animation: 6s linear 0s infinite normal none running barra;
+                border-radius: 10px;
+            }
+            &::after{
+                content: "";
+                position: absolute;
+                inset: 5px;
+                background: #000000;
+                border-radius: 20px;
+            }
+            }
+        }
+    }
+}
+
+@keyframes barra {
+    0% {
+      transform: rotate(0deg);
+    }
+  
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+
+@media (max-width: 880px){
+    #skills{
+        div{
+            margin: auto;
+            div{
+                
+            }
+        }
+    }
+}

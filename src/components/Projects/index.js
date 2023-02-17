@@ -11,7 +11,7 @@ const Projects = () => {
             <h2>Projetos</h2>
             <div className='projects-container'>
                 <div>
-                    <a href="">
+                    <a href="https://github.com/akyua/DarkZone">
                         <img src={darkzone}/>
                         <div className='hide'>
                             <h3>Darkzone</h3>
