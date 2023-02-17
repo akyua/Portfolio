@@ -42,6 +42,7 @@
 #aboutme .aboutme-container aside a {
   display: flex;
   align-self: center;
+  justify-content: center;
   text-decoration: none;
   width: 40%;
 }
@@ -57,7 +58,7 @@
   gap: 5px;
   transition: 0.3s;
   height: 50px;
-  width: 100%;
+  width: 210px;
 }
 #aboutme .aboutme-container aside a div img {
   width: 24px;
@@ -80,5 +81,15 @@
   }
   #aboutme .aboutme-container aside {
     width: 80%;
+  }
+  #aboutme .aboutme-container aside a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  #aboutme .aboutme-container aside a div {
+    width: 150px;
+    height: 50px;
+    padding: 10px 100px;
   }
 }/*# sourceMappingURL=About.css.map */

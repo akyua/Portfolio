@@ -7,41 +7,63 @@
   font-size: 39px;
   text-transform: uppercase;
 }
-#projects div {
+#projects .projects-container {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   margin: auto;
 }
-#projects div div {
+#projects .projects-container div {
   display: flex;
   align-items: center;
   justify-content: center;
   margin: 40px 50px;
   max-width: 30rem;
 }
-#projects div div a img {
-  width: 100%;
+#projects .projects-container div a {
+  text-decoration: none;
+  position: relative;
+}
+#projects .projects-container div a img {
+  width: 480px;
+  height: 250px;
   transition: 0.5s;
   border: 3px solid #313131;
   border-radius: 10px;
 }
-#projects div div a img:hover {
-  border-color: rgb(255, 255, 255);
-  transform: scale(1.1);
-}
-#projects div div a img .description {
+#projects .projects-container div a .hide {
   position: absolute;
-  padding: 0px 1rem 2rem;
+  padding: 0px 1rem;
   bottom: 0px;
   height: 100%;
   width: 100%;
+  border-radius: 10px;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
   align-items: flex-start;
-  background: linear-gradient(rgba(0, 0, 0, 0) -20%, rgb(4, 0, 1));
+  background: linear-gradient(rgba(0, 0, 0, 0) -5%, rgb(4, 0, 1));
   opacity: 0;
   transition: all 0.4s ease-in-out 0s;
+  margin: 0;
+}
+#projects .projects-container div a .hide:hover {
+  opacity: 1;
+}
+#projects .projects-container div a h3 {
+  font-size: 26px;
+  text-align: center;
+  color: #DA0037;
+}
+#projects .projects-container div a p {
+  font-size: 18.2px;
+  color: #FFF;
+}
+
+@media (max-width: 880px) {
+  #projects .projects-container div a img {
+    width: 250px;
+    height: 150px;
+  }
 }/*# sourceMappingURL=Projects.css.map */

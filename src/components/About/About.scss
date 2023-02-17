@@ -42,6 +42,7 @@
             a{
                 display: flex;
                 align-self: center;
+                justify-content: center;
                 text-decoration: none;
                 width: 40%;
                 div{
@@ -56,7 +57,7 @@
                     gap: 5px;
                     transition: 0.3s;
                     height: 50px;
-                    width: 100%;
+                    width: 210px;
                     img{
                         width: 24px;
                         height: 24px;
@@ -81,6 +82,16 @@
             width: 80%;
             aside{
                 width: 80%;
+                a{
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    div{
+                        width: 150px;
+                        height: 50px;
+                        padding: 10px 100px;
+                    }
+                }
             }
         }
     }
