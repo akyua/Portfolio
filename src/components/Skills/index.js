@@ -13,53 +13,37 @@ const Skills = () => {
         <section id="skills">
             <h2>Habilidades</h2>
             <div className='skills-container'>
-                <div>
+                <div className='skills-box orange'>
                     <img src={html}></img>
                     <h3>HTML</h3>
-                    <span className='border'>
-                    </span>
                 </div>
-                <div>
+                <div className='skills-box blue'>
                     <img src={css}></img>
                     <h3>CSS</h3>
-                    <span className='border'>
-                    </span>
                 </div>
-                <div>
+                <div className='skills-box yellow'>
                     <img src={js}></img>
                     <h3>Javascript</h3>
-                    <span className='border'>
-                    </span>
                 </div>
-                <div>
+                <div className='skills-box pink'>
                     <img src={sass}></img>
                     <h3>SASS</h3>
-                    <span className='border'>
-                    </span>
                 </div>
-                <div>
+                <div className='skills-box purple'>
                     <img src={bootstrap}></img>
                     <h3>Bootstrap</h3>
-                    <span className='border'>
-                    </span>
                 </div>
-                <div>
+                <div className='skills-box marin'>
                     <img src={react}></img>
                     <h3>ReactJS</h3>
-                    <span className='border'>
-                    </span>
                 </div>
-                <div>
+                <div className='skills-box marin'>
                     <img src={tailwind}></img>
                     <h3>Tailwind</h3>
-                    <span className='border'>
-                    </span>
                 </div>
-                <div>
+                <div className='skills-box gray'>
                     <img src={linux}></img>
                     <h3>Linux</h3>
-                    <span className='border'>
-                    </span>
                 </div>
             </div>
         </section>

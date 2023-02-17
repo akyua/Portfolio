@@ -7,67 +7,91 @@
   text-transform: uppercase;
   font-size: 39px;
 }
-#skills div {
+#skills .skills-container {
   display: flex;
   flex-wrap: wrap;
   margin: auto 200px;
   justify-content: center;
   align-items: center;
 }
-#skills div div {
+#skills .skills-container .skills-box {
   padding: 40px;
   width: 15rem;
   height: 15rem;
   border-radius: 25px;
   background-color: #000000;
+  box-shadow: 16px 14px 20px rgba(0, 0, 0, 0.5490196078);
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   margin: 40px 50px;
+  position: relative;
+  overflow: hidden;
 }
-#skills div div h3 {
+#skills .skills-container .skills-box h3 {
   z-index: 1;
 }
-#skills div div img {
+#skills .skills-container .skills-box img {
+  z-index: 1;
   box-sizing: border-box;
   border: none;
   margin-bottom: 20px;
   width: 80px;
   height: 80px;
 }
-#skills div div span {
-  display: none;
-}
-#skills div div span::before {
+#skills .skills-container .skills-box::before {
   content: "";
   position: absolute;
-  width: 5rem;
-  height: 17rem;
-  left: 4.5rem;
-  top: -40%;
-  background: rgb(3, 40, 252);
-  animation: 6s linear 0s infinite normal none running barra;
-  border-radius: 10px;
+  left: -50%;
+  top: -50%;
+  width: 200%;
+  height: 200%;
+  animation: rotate 4s linear infinite;
 }
-#skills div div span::after {
+#skills .skills-container .skills-box::after {
   content: "";
+  width: 14.5rem;
+  height: 14.5rem;
+  background-color: #000000;
   position: absolute;
-  inset: 5px;
-  background: #000000;
-  border-radius: 20px;
+  border-radius: 25px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#skills .skills-container .orange::before {
+  background: conic-gradient(transparent, rgb(255, 94, 0), transparent 30%);
+}
+#skills .skills-container .blue::before {
+  background: conic-gradient(transparent, rgb(0, 81, 255), transparent 30%);
+}
+#skills .skills-container .yellow::before {
+  background: conic-gradient(transparent, rgb(255, 251, 0), transparent 30%);
+}
+#skills .skills-container .pink::before {
+  background: conic-gradient(transparent, rgb(255, 0, 200), transparent 30%);
+}
+#skills .skills-container .purple::before {
+  background: conic-gradient(transparent, rgb(212, 0, 255), transparent 30%);
+}
+#skills .skills-container .marin::before {
+  background: conic-gradient(transparent, rgb(0, 217, 255), transparent 30%);
+}
+#skills .skills-container .gray::before {
+  background: conic-gradient(transparent, rgb(119, 119, 119), transparent 30%);
 }
 
-@keyframes barra {
-  0% {
-    transform: rotate(0deg);
-  }
+@keyframes rotate {
   100% {
-    transform: rotate(360deg);
+    transform: rotate(1turn);
   }
 }
 @media (max-width: 880px) {
-  #skills div {
-    margin: auto;
+  #skills .skills-container {
+    margin: 0px 0px;
+  }
+  #skills .skills-container div {
+    margin: 0;
   }
 }/*# sourceMappingURL=Skills.css.map */
