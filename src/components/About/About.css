@@ -16,13 +16,15 @@
   min-width: 30%;
 }
 #aboutme .aboutme-container div img {
-  width: 80%;
+  width: 368px;
+  height: 368px;
   border-radius: 20px;
 }
 #aboutme .aboutme-container aside {
   display: flex;
   flex-direction: column;
   line-height: 1.5rem;
+  align-items: center;
   width: 50%;
   gap: 2rem;
 }
@@ -38,6 +40,7 @@
 #aboutme .aboutme-container aside p {
   color: #FFF;
   font-size: 18.2px;
+  max-width: 700px;
 }
 #aboutme .aboutme-container aside a {
   display: flex;
@@ -91,5 +94,9 @@
     width: auto;
     height: 50px;
     padding: 10px 100px;
+  }
+  #aboutme .aboutme-container div img {
+    width: 250px;
+    height: 250px;
   }
 }/*# sourceMappingURL=About.css.map */
