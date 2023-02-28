@@ -7,10 +7,12 @@ const About = () => {
     return (
         <section id='aboutme'>
             <div className='aboutme-container'>
-                <div>
+                <div data-aos="fade-right" data-aos-duration="1000"
+    data-aos-easing="ease-in-out" data-aos-once="false">
                     <img src={foto}/>
                 </div>
-                <aside>
+                <aside  data-aos="fade-right" data-aos-duration="1000"
+    data-aos-easing="ease-in-out" data-aos-once="false">
                     <h2>Sobre mim</h2>
                     <h3>Florianópolis, Santa Catarina</h3>
                     <p>Me formei em técnico de Telecomunicações pelo IFSC, em 2021. Atualmente estou graduando em Ciência da Computação pela Estácio. Estudo diariamente a parte de front-end desde a metade de 2022, fiz alguns cursos, mas atualmente priorizo o desenvolvimento de projetos, utilizando REACT, SASS, TailwindCSS. </p>

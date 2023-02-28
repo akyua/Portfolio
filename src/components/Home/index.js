@@ -5,7 +5,7 @@ import github from '../../assets/img/github.png';
 const Home = () => {
     return (
         <section id="home">
-            <div className="home-container">
+            <div className="home-container" data-aos="fade-down" data-aos-duration="1000">
                 <h1>Gabriel Silveira</h1>
                 <p>Desenvolvedor Front-end</p>
                 <nav className='button'>

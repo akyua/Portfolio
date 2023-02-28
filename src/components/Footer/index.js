@@ -5,7 +5,7 @@ import footergithub from '../../assets/img/github-footer.png';
 const Footer = () => {
     return(
         <section id='footer'>
-            <div className='footer-container'>
+            <div className='footer-container' data-aos="fade-right" data-aos-duration="500">
                 <div>
                     <p>Email de Contato: gabrielnovatoo@gmail.com</p>
                     <p>Feito por: Gabriel Silveira</p>

@@ -11,9 +11,9 @@ import linux from '../../assets/img/linux.svg';
 const Skills = () => {
     return (
         <section id="skills">
-            <h2>Habilidades</h2>
-            <div className='skills-container'>
-                <div className='skills-box orange'>
+            <h2 data-aos="fade-up" data-aos-duration="1000">Habilidades</h2>
+            <div className='skills-container'  data-aos="fade-up" data-aos-duration="1200">
+                <div className='skills-box orange' >
                     <img src={html}></img>
                     <h3>HTML</h3>
                 </div>

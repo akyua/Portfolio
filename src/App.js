@@ -1,5 +1,7 @@
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 import Header from './components/Header';
 import Home from './components/Home';
 import About from './components/About';
@@ -23,7 +25,11 @@ function App() {
         <Footer />
       </footer>
     </div>
+    
   );
 }
+AOS.init()
+
+
 
 export default App;

@@ -9,8 +9,8 @@ import cronos from '../../assets/img/cronos.png';
 const Projects = () => {
     return (
         <section id='projects'>
-            <h2>Projetos</h2>
-            <div className='projects-container'>
+            <h2 data-aos="zoom-in" data-aos-duration="1000">Projetos</h2>
+            <div className='projects-container' data-aos="zoom-in" data-aos-duration="1000">
                 <div>
                     <a href="https://github.com/akyua/DarkZone">
                         <img src={darkzone}/>
