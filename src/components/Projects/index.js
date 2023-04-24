@@ -1,10 +1,12 @@
 import './Projects.css';
-import darkzone from '../../assets/img/darkzone.png';
+import dice from '../../assets/img/dice.png';
 import countdown from '../../assets/img/countdown.png';
-import myth from '../../assets/img/myth.png';
+import rps from '../../assets/img/rps.png';
+import guess from '../../assets/img/guess.png';
 import secretnumber from '../../assets/img/secretnumber.png';
 import todo from '../../assets/img/todo.png';
 import cronos from '../../assets/img/cronos.png';
+import password from '../../assets/img/password.png';
 
 const Projects = () => {
     return (
@@ -12,10 +14,10 @@ const Projects = () => {
             <h2 data-aos="zoom-in" data-aos-duration="1000">Projetos</h2>
             <div className='projects-container' data-aos="zoom-in" data-aos-duration="1000">
                 <div>
-                    <a href="https://github.com/akyua/DarkZone">
-                        <img src={darkzone}/>
+                    <a href="https://github.com/akyua/Dice">
+                        <img src={dice}/>
                         <div className='hide'>
-                            <h3>Darkzone</h3>
+                            <h3>Dice</h3>
                             <p>HTML, CSS, JS</p>
                         </div>
                     </a>
@@ -30,11 +32,11 @@ const Projects = () => {
                     </a>
                 </div>
                 <div>
-                    <a href="https://github.com/akyua/MYTH">
-                        <img src={myth}/>
+                    <a href="https://github.com/akyua/GuessMyNumber">
+                        <img src={guess}/>
                         <div className='hide'>
-                            <h3>MYTH</h3>
-                            <p>HTML, CSS</p>
+                            <h3>Guess</h3>
+                            <p>HTML, CSS, Javascript</p>
                         </div>
                     </a>
                 </div>
@@ -62,6 +64,24 @@ const Projects = () => {
                         <div className='hide'>
                             <h3>Cronos</h3>
                             <p>JSX, ReactJS, SASS</p>
+                        </div>
+                    </a>
+                </div>
+                <div>
+                    <a href="https://github.com/akyua/RPS-Game">
+                        <img src={rps}/>
+                        <div className='hide'>
+                            <h3>RockPaperScissor</h3>
+                            <p>HTML, CSS, SASS, Javascript</p>
+                        </div>
+                    </a>
+                </div>
+                <div>
+                    <a href="https://github.com/akyua/Random-Password-Generator">
+                        <img src={password}/>
+                        <div className='hide'>
+                            <h3>RandomPassword</h3>
+                            <p>HTML, CSS, SASS, Javascript</p>
                         </div>
                     </a>
                 </div>
