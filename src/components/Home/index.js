@@ -9,13 +9,13 @@ const Home = () => {
                 <h1>Gabriel Silveira</h1>
                 <p>Desenvolvedor Front-end</p>
                 <nav className='button'>
-                    <a href="https://www.linkedin.com/in/gabriel-hs/" className="image-link">
+                    <a href="https://www.linkedin.com/in/gabriel-hs/" target="_blank" className="image-link">
                         <div className='button-link'>
                             <img src={linkedin} />
                             <p>Linkedin</p>
                         </div>
                     </a>
-                    <a href="https://github.com/akyua" className="image-link">
+                    <a href="https://github.com/akyua" target="_blank" className="image-link">
                         <div className='button-link'>
                             <img src={github} />
                             <p>Github</p>

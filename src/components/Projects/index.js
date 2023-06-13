@@ -14,7 +14,7 @@ const Projects = () => {
             <h2 data-aos="zoom-in" data-aos-duration="1000">Projetos</h2>
             <div className='projects-container' data-aos="zoom-in" data-aos-duration="1000">
                 <div>
-                    <a href="https://github.com/akyua/Dice">
+                    <a href="https://github.com/akyua/Dice" target="_blank">
                         <img src={dice}/>
                         <div className='hide'>
                             <h3>Dice</h3>
@@ -23,7 +23,7 @@ const Projects = () => {
                     </a>
                 </div>
                 <div>
-                    <a href="https://github.com/akyua/Countdown">
+                    <a href="https://github.com/akyua/Countdown" target="_blank">
                         <img src={countdown}/>
                         <div className='hide'>
                             <h3>Coutndown</h3>
@@ -32,7 +32,7 @@ const Projects = () => {
                     </a>
                 </div>
                 <div>
-                    <a href="https://github.com/akyua/GuessMyNumber">
+                    <a href="https://github.com/akyua/GuessMyNumber" target="_blank">
                         <img src={guess}/>
                         <div className='hide'>
                             <h3>Guess</h3>
@@ -41,7 +41,7 @@ const Projects = () => {
                     </a>
                 </div>
                 <div>
-                    <a href="https://github.com/akyua/SecretNumber">
+                    <a href="https://github.com/akyua/SecretNumber" target="_blank">
                         <img src={secretnumber}/>
                         <div className='hide'>
                             <h3>SecretNumber</h3>
@@ -50,7 +50,7 @@ const Projects = () => {
                     </a>
                 </div>
                 <div>
-                    <a href="https://github.com/akyua/ToDo">
+                    <a href="https://github.com/akyua/ToDo" target="_blank">
                         <img src={todo}/>
                         <div className='hide'>
                             <h3>ToDo</h3>
@@ -59,7 +59,7 @@ const Projects = () => {
                     </a>
                 </div>
                 <div>
-                    <a href="https://github.com/akyua/Cronos">
+                    <a href="https://github.com/akyua/Cronos" target="_blank">
                         <img src={cronos}/>
                         <div className='hide'>
                             <h3>Cronos</h3>
@@ -68,7 +68,7 @@ const Projects = () => {
                     </a>
                 </div>
                 <div>
-                    <a href="https://github.com/akyua/RPS-Game">
+                    <a href="https://github.com/akyua/RPS-Game" target="_blank">
                         <img src={rps}/>
                         <div className='hide'>
                             <h3>RockPaperScissor</h3>
@@ -77,7 +77,7 @@ const Projects = () => {
                     </a>
                 </div>
                 <div>
-                    <a href="https://github.com/akyua/Random-Password-Generator">
+                    <a href="https://github.com/akyua/Random-Password-Generator" target="_blank">
                         <img src={password}/>
                         <div className='hide'>
                             <h3>RandomPassword</h3>

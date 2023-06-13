@@ -11,10 +11,10 @@ const Footer = () => {
                     <p>Feito por: Gabriel Silveira</p>
                 </div>
                 <aside>
-                    <a href="https://www.linkedin.com/in/gabriel-hs/">
+                    <a href="https://www.linkedin.com/in/gabriel-hs/" target="_blank">
                         <img src={footerlinkedin}></img>
                     </a>
-                    <a href="https://github.com/akyua">
+                    <a href="https://github.com/akyua" target="_blank">
                         <img src={footergithub}></img>
                     </a>
                 </aside>
