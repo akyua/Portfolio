@@ -10,9 +10,12 @@
         height: 110vh;
        /*  max-width: 1150; */
         margin: 0 auto;
-        padding-left: 40px;
+        padding-left: 160px;
+        .container-animation{
+            max-width: 50%;
+        }
         .home-description{
-            min-width: 55%;
+            min-width: 40%;
         }
         div{
             display: flex;
@@ -74,10 +77,15 @@
         .home-container{
             display: flex;
             flex-direction: column;
-            height: 120vh;
+            height: 100vh;
             padding-left: 0;
-            #animation{
-                width: 50px;
+            div{
+                h1{
+                    font-size: calc($font-size * 2.0);
+                }
+            }
+            .container-animation{
+                max-width: 500px;
             }
         }
     }

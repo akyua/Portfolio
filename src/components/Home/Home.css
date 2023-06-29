@@ -7,10 +7,13 @@
   height: 110vh;
   /*  max-width: 1150; */
   margin: 0 auto;
-  padding-left: 40px;
+  padding-left: 160px;
+}
+#home .home-container .container-animation {
+  max-width: 50%;
 }
 #home .home-container .home-description {
-  min-width: 55%;
+  min-width: 40%;
 }
 #home .home-container div {
   display: flex;
@@ -66,10 +69,13 @@
   #home .home-container {
     display: flex;
     flex-direction: column;
-    height: 120vh;
+    height: 100vh;
     padding-left: 0;
   }
-  #home .home-container #animation {
-    width: 50px;
+  #home .home-container div h1 {
+    font-size: 52px;
+  }
+  #home .home-container .container-animation {
+    max-width: 500px;
   }
 }/*# sourceMappingURL=Home.css.map */

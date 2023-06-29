@@ -4,8 +4,12 @@
     background-color: rgba(41, 35, 35, 0.664);
     font-size: calc($font-size / 1.4);
     box-shadow: 0 0 10px rgba(0,0,0,.20);
+    padding: 0 10%;
     img {
         width: 60px;
+    }
+    .container{
+        margin: 5px 0;
     }
     .nav-link{
         color: $color-text;
