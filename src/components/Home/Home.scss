@@ -1,67 +1,86 @@
 @import '../../abstract/variables';
 
 #home{
-    background-image: url('../../assets/img/background4.gif');
-    background-repeat: no-repeat;
-    background-size: cover;
-    /*  background-attachment: fixed;  */
-    background-position: center;
-    width: 100%;
-    height: 120vh;
     .home-container {
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         align-items: center;
         justify-content: center;
         width: 100%;
-        height: 120vh;
-        h1{
-            font-size: calc($font-size * 3.8);
-            color: $color-main;
-            text-shadow: 2px 7px 5px rgba(0, 0, 0, 0.3), 0px -4px 10px rgba(0, 0, 0, 0.3);
+        height: 110vh;
+        max-width: 1150px;
+        margin: 0 auto;
+        .home-description{
+            margin-left: 40px;
         }
-        p{
-            font-size: calc($font-size * 1.5);
-            color: $color-text;
-        }
-        .button{
+        div{
             display: flex;
-            flex-direction: row;
-            gap: 40px;
-            .image-link{ 
-                text-decoration: none;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            h1{
+                font-size: calc($font-size * 2.8);
                 color: $color-text;
+            }
+            p{
+                font-size: calc($font-size * 1.2);
+                color: $color-description;
+            }
+            .button{
+                display: flex;
+                flex-direction: row;
+                gap: 40px;
+                .image-link{ 
+                    text-decoration: none;
+                    color: $color-text;
 
-                .button-link{
-                    display: flex;
-                    flex-direction: row;
-                    align-items: center;
-                    padding: 3px 10px 5px;
-                    border-radius: 8px;
-                    border: 3px solid $color-text;
-                    transition: 0.3s;
-                    letter-spacing: 1.5px;
-                    height: 40px;
-                    gap: 5px;
-                    transition: 0.3s;
-                    
-                    img{
-                        width: 22px;
-                        height: 22px;
+                    .button-link{
+                        display: flex;
+                        flex-direction: row;
+                        align-items: center;
+                        padding: 3px 10px 5px;
+                        border-radius: 8px;
+                        border: 3px solid $color-text;
+                        transition: 0.3s;
+                        letter-spacing: 1.5px;
+                        height: 40px;
+                        gap: 5px;
+                        transition: 0.3s;
+                        
+                        img{
+                            width: 22px;
+                            height: 22px;
+                        }
+                        p{
+                            margin-top: 5px;
+                            margin-bottom: 0;
+                            font-size: calc($font-size /  1.5);
+                        }
+                        &:hover{
+                            transform: scale(1.1);
+                            background-color: $color-effect-link;
+                        }
+                        
                     }
-                    p{
-                        margin-top: 5px;
-                        margin-bottom: 0;
-                        font-size: calc($font-size /  1.5);
-                    }
-                    &:hover{
-                        transform: scale(1.1);
-                        background-color: $color-effect-link;
-                    }
-                    
-                }
+            }
+            }
         }
+        .animation{
+            background-color: red;
         }
         
+        
+        
+    }
+}
+
+@media screen and (max-width: 900px){
+    #home{
+        .home-container{
+            display: flex;
+            flex-direction: column;
+            height: 120vh;
+            margin: 0;
+        }
     }
 }

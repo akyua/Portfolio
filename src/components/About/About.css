@@ -1,5 +1,6 @@
 #aboutme {
-  background-color: #171a1d;
+  background-color: #f9f9f9;
+  scroll-margin-top: 80px;
 }
 #aboutme .aboutme-container {
   display: flex;
@@ -8,9 +9,10 @@
   justify-content: center;
   width: 80%;
   margin: auto;
-  padding: 80px 0;
-  gap: 20px;
+  padding-bottom: 80px;
+  gap: 5%;
   flex-wrap: wrap;
+  max-width: 1150px;
 }
 #aboutme .aboutme-container div {
   min-width: 30%;
@@ -29,16 +31,17 @@
   gap: 2rem;
 }
 #aboutme .aboutme-container aside h2 {
-  color: #FFF;
+  color: #171a1d;
   font-size: 39px;
   text-transform: uppercase;
 }
 #aboutme .aboutme-container aside h3 {
-  color: #FFF;
+  color: #171a1d;
   font-size: 23.4px;
 }
 #aboutme .aboutme-container aside p {
-  color: #FFF;
+  text-align: start;
+  color: #4d4d4d;
   font-size: 18.2px;
   max-width: 700px;
 }
@@ -55,9 +58,9 @@
   justify-content: center;
   padding: 10px 100px;
   border-radius: 8px;
-  border: 3px solid #FFF;
+  border: 3px solid #171a1d;
   transition: 0.3s;
-  letter-spacing: 1.5px;
+  letter-spacing: 1px;
   gap: 5px;
   transition: 0.3s;
   height: 50px;
@@ -69,7 +72,10 @@
 }
 #aboutme .aboutme-container aside a div:hover {
   transform: scale(1.1);
-  background-color: #303030;
+  background-color: #b3b9b9;
+}
+#aboutme .aboutme-container aside a div p {
+  color: #171a1d;
 }
 
 @media (max-width: 880px) {

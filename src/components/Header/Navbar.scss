@@ -2,14 +2,14 @@
 
 .navbar{
     background-color: rgba(41, 35, 35, 0.664);
-    font-size: calc($font-size / 1.5);
-    border-bottom: 3px solid #FFF;
+    font-size: calc($font-size / 1.4);
+    box-shadow: 0 0 10px rgba(0,0,0,.20);
     img {
         width: 60px;
     }
     .nav-link{
-        color: white;
-        padding: 0 20px;
+        color: $color-text;
+        padding: 0 10px;
         transition: 0.6s;
         
 
@@ -34,6 +34,14 @@
 }
 
 
-
-
-
+@media (max-width: 990px){
+    .navbar{
+        .nav-link{
+            &:hover{
+                &::after{
+                    transform: scaleX(0);
+                }
+            }
+        }
+    }
+}

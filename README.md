@@ -1,40 +1,39 @@
-<h1 align="center"> Portfolio </h1>
+# Portfolio
 
-<p align="center"> The Project is a web page, where i make my portfolio with my projects, about me, skills, etc. </p>
-<p align="center"> It's possible see the project in desktop/tablet/mobile </p>
+This project is a responsive portfolio website that showcases my skills, experience, and projects. The website is designed to adapt seamlessly across various devices (Responsive), ensuring optimal user experience.
 
-<br>
+[![license mit](https://img.shields.io/badge/license-MIT-blue.svg?style=for-the-badge&labelColor=000)](https://img.shields.io/github/license/akyua/Portfolio)
 
-<h2 align="center"> See website on live </h2>
-<p align="center"> http://gabrielsilveira.tk || https://portfolio-akyua.vercel.app </p>
+## Dependencies
 
-<br>
+- aos
+- bootstrap
+- lottie-react
+- react
+- react-dom
+- react-scripts
+- react-bootstrap
+- web-vitals
+- @testing-library/jest-dom
+- @testing-library/react
+- @testing-library/user-event
 
-<h2 align="center"> Technologies Used </h2>
+## See website on live
 
-<p align="center"> ReactJS </p>
-<p align="center"> JSX </p>
-<p align="center"> SASS (SCCS) </p>
-<p align="center"> JS </p>
+https://lotus-akyua.vercel.app/
 
-<br>
+## Technologies Used
 
-<h2 align="center"> Final Result of the website </h2>
+![Javascript](https://img.shields.io/badge/-Javascript-black?style=for-the-badge&logo=javascript)
+![Node](https://img.shields.io/badge/-NodeJS-black?style=for-the-badge&logo=node.js)
+![React](https://img.shields.io/badge/-React-black?style=for-the-badge&logo=react)
+![SASS](https://img.shields.io/badge/-SASS-black?style=for-the-badge&logo=sass)
+![Bootstrap](https://img.shields.io/badge/-Bootstrap-black?style=for-the-badge&logo=bootstrap)
 
-![image](https://user-images.githubusercontent.com/75745796/220470591-a21b5a5b-5d30-4f59-99c9-c3ab4c96677d.png)
-![portfolio2](https://user-images.githubusercontent.com/75745796/220470549-f4f7cf87-87f8-45a3-ba06-09dbc4e754c6.png)
-![portfolio3](https://user-images.githubusercontent.com/75745796/220470529-bfc6d5f7-0b04-4949-a119-460f7f35d449.png)
+## Pictures of the Project
 
-<br>
+Not avaible yet.
 
-<h2 align="center"> Final Result of the website [MOBILE] </h2>
+## License
 
-<div align="center">
-
-![portfoliomobile](https://user-images.githubusercontent.com/75745796/220470544-f686d9c9-2a61-4618-9028-99a1f073e060.png)
-
-![portfoliomobile2](https://user-images.githubusercontent.com/75745796/220470554-b61eb6ca-ad0c-4850-b9a6-fc357018405c.png)
-
-![portfoliomobile3](https://user-images.githubusercontent.com/75745796/220470576-2eb9cb66-425d-4fa1-9f5e-3f5d1dd2d205.png)
-
-</div>
+[MIT License](./LICENSE) © [Gabriel Silveira](http://gabrielsilveira.tk/)

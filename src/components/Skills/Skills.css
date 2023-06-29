@@ -1,23 +1,27 @@
 #skills {
-  background-color: #171a1d;
+  background-color: #f9f9f9;
   padding: 80px 0;
-  color: #FFF;
+  scroll-margin-top: 80px;
+  color: #171a1d;
 }
 #skills h2 {
   text-transform: uppercase;
-  font-size: 39px;
+  font-size: 48px;
 }
 #skills .skills-container {
-  display: flex;
+  color: #f9f9f9;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
   flex-wrap: wrap;
-  margin: auto 200px;
+  margin: auto;
   justify-content: center;
   align-items: center;
+  max-width: 1000px;
 }
 #skills .skills-container .skills-box {
   padding: 40px;
-  width: 15rem;
-  height: 15rem;
+  width: 12rem;
+  height: 12rem;
   border-radius: 25px;
   background-color: #000000;
   box-shadow: 16px 14px 20px rgba(0, 0, 0, 0.5490196078);
@@ -31,14 +35,15 @@
 }
 #skills .skills-container .skills-box h3 {
   z-index: 1;
+  font-size: 1.4rem;
 }
 #skills .skills-container .skills-box img {
   z-index: 1;
   box-sizing: border-box;
   border: none;
   margin-bottom: 20px;
-  width: 80px;
-  height: 80px;
+  width: 60px;
+  height: 60px;
 }
 #skills .skills-container .skills-box::before {
   content: "";
@@ -51,8 +56,8 @@
 }
 #skills .skills-container .skills-box::after {
   content: "";
-  width: 14.5rem;
-  height: 14.5rem;
+  width: 11.5rem;
+  height: 11.5rem;
   background-color: #000000;
   position: absolute;
   border-radius: 25px;
@@ -61,25 +66,25 @@
   align-items: center;
 }
 #skills .skills-container .orange::before {
-  background: conic-gradient(transparent, rgb(255, 94, 0), transparent 30%);
+  background: conic-gradient(transparent, rgb(255, 94, 0), transparent 60%);
 }
 #skills .skills-container .blue::before {
-  background: conic-gradient(transparent, rgb(0, 81, 255), transparent 30%);
+  background: conic-gradient(transparent, rgb(0, 81, 255), transparent 60%);
 }
 #skills .skills-container .yellow::before {
-  background: conic-gradient(transparent, rgb(255, 251, 0), transparent 30%);
+  background: conic-gradient(transparent, rgb(255, 251, 0), transparent 60%);
 }
 #skills .skills-container .pink::before {
-  background: conic-gradient(transparent, rgb(255, 0, 200), transparent 30%);
+  background: conic-gradient(transparent, rgb(255, 0, 200), transparent 60%);
 }
 #skills .skills-container .purple::before {
-  background: conic-gradient(transparent, rgb(212, 0, 255), transparent 30%);
+  background: conic-gradient(transparent, rgb(212, 0, 255), transparent 60%);
 }
 #skills .skills-container .marin::before {
-  background: conic-gradient(transparent, rgb(0, 217, 255), transparent 30%);
+  background: conic-gradient(transparent, rgb(0, 217, 255), transparent 60%);
 }
 #skills .skills-container .gray::before {
-  background: conic-gradient(transparent, rgb(119, 119, 119), transparent 30%);
+  background: conic-gradient(transparent, rgb(168, 168, 168), transparent 60%);
 }
 
 @keyframes rotate {
@@ -87,9 +92,23 @@
     transform: rotate(1turn);
   }
 }
-@media (max-width: 880px) {
+@media screen and (max-width: 720px) {
   #skills .skills-container {
-    margin: 0px 0px;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    justify-items: center;
+    align-items: center;
+  }
+  #skills .skills-container div {
+    margin: 0;
+  }
+}
+@media screen and (max-width: 1160px) and (min-width: 720px) {
+  #skills .skills-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+    align-items: center;
   }
   #skills .skills-container div {
     margin: 0;

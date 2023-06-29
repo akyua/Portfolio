@@ -1,18 +1,18 @@
 .navbar {
   background-color: rgba(41, 35, 35, 0.664);
-  font-size: 17.3333333333px;
-  border-bottom: 3px solid #FFF;
+  font-size: 18.5714285714px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
 .navbar img {
   width: 60px;
 }
 .navbar .nav-link {
-  color: white;
-  padding: 0 20px;
+  color: #171a1d;
+  padding: 0 10px;
   transition: 0.6s;
 }
 .navbar .nav-link:hover {
-  color: #DA0037;
+  color: #b3b9b9;
 }
 .navbar .nav-link:hover::after {
   transform: scaleX(1);
@@ -20,8 +20,14 @@
 .navbar .nav-link::after {
   display: block;
   content: "";
-  border-bottom: solid 3px #DA0037;
+  border-bottom: solid 3px #b3b9b9;
   border-radius: 20px;
   transform: scaleX(0);
   transition: transform 250ms ease-in-out;
+}
+
+@media (max-width: 990px) {
+  .navbar .nav-link:hover::after {
+    transform: scaleX(0);
+  }
 }/*# sourceMappingURL=Navbar.css.map */

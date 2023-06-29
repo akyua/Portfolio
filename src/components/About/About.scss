@@ -2,7 +2,7 @@
 
 #aboutme{
     background-color: $color-container-about;
-
+    scroll-margin-top: 80px;
     .aboutme-container{
         display: flex;
         flex-direction: row;
@@ -10,9 +10,10 @@
         justify-content: center;
         width: 80%;
         margin: auto;
-        padding: 80px 0;
-        gap: 20px;
+        padding-bottom: 80px;
+        gap: 5%;
         flex-wrap: wrap;
+        max-width: 1150px;
         div{
             min-width: 30%;
             img{
@@ -38,7 +39,8 @@
                 font-size: calc($font-size * 0.9);
             }
             p{
-                color: $color-text;
+                text-align: start;
+                color: $color-description;
                 font-size: calc($font-size * 0.7);
                 max-width: 700px;
             }
@@ -56,7 +58,7 @@
                     border-radius: 8px;
                     border: 3px solid $color-text;
                     transition: 0.3s;
-                    letter-spacing: 1.5px;
+                    letter-spacing: 1px;
                     gap: 5px;
                     transition: 0.3s;
                     height: 50px;
@@ -68,6 +70,9 @@
                     &:hover{
                         transform: scale(1.1);
                         background-color: $color-effect-link;
+                    }
+                    p{
+                        color: $color-text;
                     }
                 }
             }

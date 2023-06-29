@@ -1,10 +1,11 @@
 #projects {
-  background-color: rgb(16, 17, 18);
+  background-color: #f9f9f9;
   padding: 80px 0;
+  scroll-margin-top: 80px;
 }
 #projects h2 {
-  color: #FFF;
-  font-size: 39px;
+  color: #171a1d;
+  font-size: 48px;
   text-transform: uppercase;
 }
 #projects .projects-container {
@@ -54,7 +55,7 @@
 #projects .projects-container div a h3 {
   font-size: 26px;
   text-align: center;
-  color: #DA0037;
+  color: #b3b9b9;
 }
 #projects .projects-container div a p {
   font-size: 18.2px;
