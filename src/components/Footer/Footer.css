@@ -36,6 +36,7 @@
   #footer .footer-container {
     display: flex;
     justify-content: center;
+    gap: 10px;
   }
   #footer .footer-container div p {
     text-align: center;

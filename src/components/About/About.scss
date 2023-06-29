@@ -3,6 +3,8 @@
 #aboutme{
     background-color: $color-container-about;
     scroll-margin-top: 80px;
+    padding: 80px 0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.349);
     .aboutme-container{
         display: flex;
         flex-direction: row;
@@ -43,6 +45,10 @@
                 color: $color-description;
                 font-size: calc($font-size * 0.7);
                 max-width: 700px;
+                strong{
+                    font-weight: 600;
+                    color: $color-text;
+                }
             }
             a{
                 display: flex;
@@ -80,7 +86,7 @@
     }
 }
 
-@media (max-width: 880px){
+@media (max-width: 1020px){
     #aboutme{
         display: flex;
         flex-direction: column;
@@ -88,8 +94,9 @@
         align-items: center;
         .aboutme-container{
             width: 80%;
+            gap: 2rem;
             aside{
-                width: 80%;
+                width: 100%;
                 a{
                     display: flex;
                     align-items: center;
@@ -99,6 +106,9 @@
                         height: 50px;
                         padding: 10px 100px;
                     }
+                }
+                p{
+                    text-align: center;
                 }
             }
             div{

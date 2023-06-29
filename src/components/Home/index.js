@@ -4,10 +4,10 @@ import github from '../../assets/img/github.png';
 import Lottie from "lottie-react";
 import animation from "./animation.json";
 
-const style = {
-    height: '400%',
-    width: 400,
-}
+/* const style = {
+    height: "1000px",
+    width: "1000px",
+} */
 
 const Home = () => {
     return (
@@ -31,7 +31,9 @@ const Home = () => {
                         </a>
                     </nav>
                 </div>
-                <Lottie animationData={animation} style={style} id="animation"/>
+                <div className='container-animation'>
+                    <Lottie animationData={animation}/>
+                </div>
             </div>  
         </section>
     );

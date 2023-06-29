@@ -5,11 +5,12 @@
   justify-content: center;
   width: 100%;
   height: 110vh;
-  max-width: 1150px;
+  /*  max-width: 1150; */
   margin: 0 auto;
+  padding-left: 40px;
 }
 #home .home-container .home-description {
-  margin-left: 40px;
+  min-width: 55%;
 }
 #home .home-container div {
   display: flex;
@@ -18,7 +19,7 @@
   justify-content: center;
 }
 #home .home-container div h1 {
-  font-size: 72.8px;
+  font-size: 67.6px;
   color: #171a1d;
 }
 #home .home-container div p {
@@ -60,15 +61,15 @@
   transform: scale(1.1);
   background-color: #b3b9b9;
 }
-#home .home-container .animation {
-  background-color: red;
-}
 
 @media screen and (max-width: 900px) {
   #home .home-container {
     display: flex;
     flex-direction: column;
     height: 120vh;
-    margin: 0;
+    padding-left: 0;
+  }
+  #home .home-container #animation {
+    width: 50px;
   }
 }/*# sourceMappingURL=Home.css.map */

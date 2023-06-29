@@ -15,7 +15,9 @@ const About = () => {
     data-aos-easing="ease-in-out" data-aos-once="false">
                     <h2>Sobre mim</h2>
                     <h3>Florianópolis, Santa Catarina</h3>
-                    <p>Me formei em técnico de Telecomunicações pelo IFSC, em 2021. Atualmente estou graduando em Ciência da Computação pela Estácio. Estudo diariamente a parte de front-end desde a metade de 2022, fiz alguns cursos, mas atualmente priorizo o desenvolvimento de projetos, utilizando REACT, SASS, TailwindCSS. </p>
+                    <p>
+                        Sou um estudante de Ciência da Computação com formação técnica em Telecomunicações. Tenho interesse especial no desenvolvimento front-end, onde já utilizo tecnologias como <strong>React, Tailwind, SASS e styled-components</strong>. Meu objetivo é criar interfaces que sejam intuitivas, funcionais e esteticamente atraentes, sempre visando a satisfação do usuário.
+                    </p>
                     <a href={curriculum} download>
                         <div>
                             <img src={download}/>
