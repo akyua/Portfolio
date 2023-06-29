@@ -1,6 +1,6 @@
 # Portfolio
 
-This project is a responsive portfolio website that showcases my skills, experience, and projects. The website is designed to adapt seamlessly across various devices (Responsive), ensuring optimal user experience.
+A responsive website showcasing my professional portfolio. Explore my work and gain insights into my expertise in Front-end with React. Discover a visually engaging and user-friendly platform to learn more about my projects, skills, and accomplishments.
 
 [![license mit](https://img.shields.io/badge/license-MIT-blue.svg?style=for-the-badge&labelColor=000)](https://img.shields.io/github/license/akyua/Portfolio)
 
@@ -20,7 +20,8 @@ This project is a responsive portfolio website that showcases my skills, experie
 
 ## See website on live
 
-https://lotus-akyua.vercel.app/
+http://gabrielsilveira.tk
+https://portfolio-akyua.vercel.app/
 
 ## Technologies Used
 
