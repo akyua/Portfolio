@@ -20,8 +20,8 @@ A responsive website showcasing my professional portfolio. Explore my work and g
 
 ## See website on live
 
-http://gabrielsilveira.tk
-https://portfolio-akyua.vercel.app/
+- http://gabrielsilveira.tk
+- https://portfolio-akyua.vercel.app/
 
 ## Technologies Used
 
