@@ -110,7 +110,7 @@
     #projects{
         .projects-container{
             .project-individual{
-                width: 420px;
+                width: 380px;
                 height: auto;
                 display: flex;
                 flex-direction: column;
@@ -120,8 +120,9 @@
                 .project-image{
                     a{
                         img{
-                            width: 380px;
+                            width: 320px;
                             object-fit: fill;
+                            height: 200px;
                         }
                     }
                 }

@@ -2,7 +2,7 @@
   background-color: rgba(41, 35, 35, 0.664);
   font-size: 18.5714285714px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-  padding: 0 10%;
+  justify-content: center;
 }
 .navbar img {
   width: 60px;
