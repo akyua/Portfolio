@@ -7,7 +7,7 @@ const Footer = () => {
         <section id='footer'>
             <div className='footer-container'>
                 <div>
-                    <p>Copyright © 2023. All rights are reserved</p>
+                    <p>© Copyright 2023 Gabriel Silveira. All rights are reserved.</p>
                 </div>
                 <aside>
                     <a href="https://www.linkedin.com/in/gabriel-hs/" target="_blank">
