@@ -14,9 +14,10 @@ A responsive website showcasing my professional portfolio. Explore my work and g
 - react-scripts
 - react-bootstrap
 - web-vitals
-- @testing-library/jest-dom
-- @testing-library/react
-- @testing-library/user-event
+- @fortawesome/fontawesome-svg-core
+- @fortawesome/free-brands-svg-icons
+- @fortawesome/free-solid-svg-icons
+- @fortawesome/react-fontawesome
 
 ## See website on live
 
@@ -33,7 +34,14 @@ A responsive website showcasing my professional portfolio. Explore my work and g
 
 ## Pictures of the Project
 
-Not avaible yet.
+<div align="center">
+
+![portfolio](https://github.com/akyua/Portfolio/assets/75745796/3a963bc5-d27f-45dc-8e3a-d999fe81d3b2)
+![portfolio2](https://github.com/akyua/Portfolio/assets/75745796/e6387f13-5f85-4c5c-8b89-3f3e3c05ccb8)
+![portfolio3](https://github.com/akyua/Portfolio/assets/75745796/356a488f-a42f-46dd-a33b-3e0abb45a293)
+![portfolio4](https://github.com/akyua/Portfolio/assets/75745796/408895c2-9fe5-481a-9eec-1641a4a2e5b6)
+
+</div>
 
 ## License
 
