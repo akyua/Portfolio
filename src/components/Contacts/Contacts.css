@@ -1,5 +1,6 @@
 #contacts {
   padding: 80px 0;
+  scroll-margin-top: 80px;
 }
 #contacts h2 {
   color: #171a1d;
@@ -16,6 +17,15 @@
   gap: 80px;
   padding: 60px 0;
 }
+#contacts .contact-container a {
+  text-decoration: none;
+  color: #171a1d;
+  transition: transform 0.3s ease;
+}
+#contacts .contact-container a:hover {
+  color: #4a73fa;
+  transform: scale(1.05);
+}
 #contacts .contact-container .contact-content {
   display: flex;
   flex-direction: row;
@@ -26,6 +36,7 @@
 }
 #contacts .contact-container .contact-content span {
   font-size: 30px;
+  margin-top: -5px;
 }
 #contacts .contact-container .contact-content .contact-info {
   text-align: start;
@@ -33,13 +44,8 @@
 #contacts .contact-container .contact-content .contact-info h3 {
   margin: 0;
 }
-#contacts .contact-container .contact-content .contact-info a {
-  text-decoration: none;
-  color: #171a1d;
-  transition: 0.5s;
-}
-#contacts .contact-container .contact-content .contact-info a:hover {
-  color: #b3b9b9;
+#contacts .contact-container .contact-content .contact-info p {
+  margin: 0;
 }
 
 @media screen and (max-width: 1160px) and (min-width: 560px) {

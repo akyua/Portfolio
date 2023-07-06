@@ -2,6 +2,7 @@
 
 #contacts{
     padding: 80px 0;
+    scroll-margin-top: 80px;
     h2{
         color: $color-text;
         font-size:  $font-title;
@@ -15,7 +16,16 @@
         justify-content: center;
         margin: 0 auto;
         gap: 80px;
-        padding: 60px 0;        
+        padding: 60px 0;
+        a{
+            text-decoration: none;
+            color: $color-text;
+            transition: transform 0.3s ease;
+            &:hover{
+                color: $color-hover-div;
+                transform: scale(1.05);
+            }
+        }        
         .contact-content{
             display: flex;
             flex-direction: row;
@@ -25,6 +35,7 @@
             border-radius: 20px;
             span{
                 font-size: 30px;
+                margin-top: -5px;
             }
             .contact-info{
                 text-align: start;
@@ -32,13 +43,8 @@
                 h3{
                     margin: 0;
                 }
-                a{
-                    text-decoration: none;
-                    color: $color-text;
-                    transition: 0.5s;
-                    &:hover{
-                        color: $color-hover;
-                    }
+                p{
+                    margin: 0;
                 }
             }
         }

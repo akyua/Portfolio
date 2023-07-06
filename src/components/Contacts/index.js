@@ -7,29 +7,35 @@ import { faLinkedin } from '@fortawesome/free-brands-svg-icons';
 const Contacts = () => {
     return (
         <section id='contacts'>
-            <h2 data-aos="fade-right" data-aos-duration="1000">Contact</h2>
+            <h2 data-aos="fade-right" data-aos-duration="1000">Contatos</h2>
             <div className='contact-container' data-aos="fade-right" data-aos-duration="1000">
-                <div className='contact-content'>
-                    <span><FontAwesomeIcon icon={faEnvelope} /></span>
-                    <div className='contact-info'>
-                        <h3>Email</h3>
-                        <a href="mailto:gabrielnovatoo@gmail.com" target='_blank'>gabrielnovatoo@gmail.com</a>
+                <a href="mailto:gabrielnovatoo@gmail.com" target='_blank'>
+                    <div className='contact-content'>
+                        <span><FontAwesomeIcon icon={faEnvelope} /></span>
+                        <div className='contact-info'>
+                            <h3>Email</h3>
+                            gabrielnovatoo@gmail.com
+                        </div>
                     </div>
-                </div>
-                <div className='contact-content'>
-                    <span><FontAwesomeIcon icon={faGithub} /></span>
-                    <div className='contact-info'>
-                        <h3>Github</h3>
-                        <a href="https://github.com/akyua" target='_blank'>Akyua</a>
+                </a>
+                <a href="https://github.com/akyua" target='_blank'>
+                    <div className='contact-content'>
+                        <span><FontAwesomeIcon icon={faGithub} /></span>
+                        <div className='contact-info'>
+                            <h3>Github</h3>
+                            <p>Akyua</p>
+                        </div>
                     </div>
-                </div>
-                <div className='contact-content'>
-                    <span><FontAwesomeIcon icon={faLinkedin} /></span>
-                    <div className='contact-info'>
-                        <h3>Linkedin</h3>
-                        <a href="https://linkedin.com/in/gabriel-hs" target='_blank'>Gabriel Henrique Silveira</a>
+                </a>
+                <a href="https://linkedin.com/in/gabriel-hs" target='_blank'>
+                    <div className='contact-content'>
+                        <span><FontAwesomeIcon icon={faLinkedin} /></span>
+                        <div className='contact-info'>
+                            <h3>Linkedin</h3>
+                            <p>Gabriel Henrique Silveira</p>
+                        </div>
                     </div>
-                </div>
+                </a>
             </div>
         </section>
     )
