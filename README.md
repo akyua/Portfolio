@@ -4,24 +4,8 @@ A responsive website showcasing my professional portfolio. Explore my work and g
 
 [![license mit](https://img.shields.io/badge/license-MIT-blue.svg?style=for-the-badge&labelColor=000)](https://img.shields.io/github/license/akyua/Portfolio)
 
-## Dependencies
-
-- aos
-- bootstrap
-- lottie-react
-- react
-- react-dom
-- react-scripts
-- react-bootstrap
-- web-vitals
-- @fortawesome/fontawesome-svg-core
-- @fortawesome/free-brands-svg-icons
-- @fortawesome/free-solid-svg-icons
-- @fortawesome/react-fontawesome
-
 ## See website on live
 
-- http://gabrielsilveira.tk
 - https://portfolio-akyua.vercel.app/
 
 ## Technologies Used

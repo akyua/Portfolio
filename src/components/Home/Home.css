@@ -9,11 +9,13 @@
   margin: 0 auto;
   padding-left: 160px;
 }
-#home .home-container .container-animation {
+#home .home-container .container-animation div {
   max-width: 50%;
+  width: 600px;
+  height: 600px;
 }
-#home .home-container .home-description {
-  min-width: 40%;
+#home .home-container .container-animation div svg {
+  width: 600px !important;
 }
 #home .home-container div {
   display: flex;

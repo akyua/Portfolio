@@ -9,6 +9,7 @@
 }
 .navbar .container {
   margin: 5px 0;
+  max-width: 1150px;
 }
 .navbar .nav-link {
   color: #171a1d;

@@ -12,10 +12,17 @@
         margin: 0 auto;
         padding-left: 160px;
         .container-animation{
-            max-width: 50%;
+            div{
+                max-width: 50%;
+                width: 600px;
+                height: 600px;
+                svg{
+                    width: 600px !important;
+                }
+            }
+            
         }
         .home-description{
-            min-width: 40%;
         }
         div{
             display: flex;
