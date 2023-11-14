@@ -101,6 +101,21 @@
                 background: conic-gradient(transparent, rgb(168, 168, 168), transparent 60%);
             }
         }
+        .green{
+            &::before{
+                background: conic-gradient(transparent, rgb(98, 248, 11), transparent 60%);
+            }
+        }
+        .green2{
+            &::before{
+                background: conic-gradient(transparent, rgb(74, 201, 1), transparent 60%);
+            }
+        }
+        .green3{
+            &::before{
+                background: conic-gradient(transparent, rgb(62, 165, 3), transparent 60%);
+            }
+        }
     }
 }
 

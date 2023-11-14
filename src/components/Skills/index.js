@@ -7,6 +7,10 @@ import bootstrap from '../../assets/img/bootstrap.svg';
 import react from '../../assets/img/react.svg';
 import tailwind from '../../assets/img/tailwindcss.svg';
 import linux from '../../assets/img/linux.svg';
+import java from '../../assets/img/java.svg';
+import git from '../../assets/img/git.svg';
+import vue from '../../assets/img/vue.svg';
+import node from '../../assets/img/node.svg';
 
 const Skills = () => {
     return (
@@ -29,17 +33,33 @@ const Skills = () => {
                     <img src={sass}></img>
                     <h3>SASS</h3>
                 </div>
+                <div className='skills-box marin'>
+                    <img src={react}></img>
+                    <h3>ReactJS</h3>
+                </div>
+                <div className='skills-box green2'>
+                    <img src={vue}></img>
+                    <h3>VueJS</h3>
+                </div>
                 <div className='skills-box purple'>
                     <img src={bootstrap}></img>
                     <h3>Bootstrap</h3>
                 </div>
                 <div className='skills-box marin'>
-                    <img src={react}></img>
-                    <h3>ReactJS</h3>
-                </div>
-                <div className='skills-box marin'>
                     <img src={tailwind}></img>
                     <h3>Tailwind</h3>
+                </div>
+                <div className='skills-box orange'>
+                    <img src={java}></img>
+                    <h3>Java</h3>
+                </div>
+                <div className='skills-box green3'>
+                    <img src={node}></img>
+                    <h3>NodeJS</h3>
+                </div>
+                <div className='skills-box orange'>
+                    <img src={git}></img>
+                    <h3>Git</h3>
                 </div>
                 <div className='skills-box gray'>
                     <img src={linux}></img>
