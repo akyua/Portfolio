@@ -71,13 +71,17 @@
   #home .home-container {
     display: flex;
     flex-direction: column;
-    height: 120vh;
+    height: auto;
+    margin-top: 200px;
     padding-left: 0;
   }
   #home .home-container div h1 {
     font-size: 52px;
   }
   #home .home-container .container-animation {
-    max-width: 500px;
+    max-width: 350px !important;
+  }
+  #home .home-container .container-animation div svg {
+    width: 350px !important;
   }
 }/*# sourceMappingURL=Home.css.map */

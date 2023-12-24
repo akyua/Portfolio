@@ -1,13 +1,8 @@
 import './Projects.css';
-import dice from '../../assets/img/dice.png';
-import countdown from '../../assets/img/countdown.png';
-import rps from '../../assets/img/rps.png';
-import guess from '../../assets/img/guess.png';
-import secretnumber from '../../assets/img/secretnumber.png';
-import todo from '../../assets/img/todo.png';
 import cronos from '../../assets/img/cronos.png';
-import password from '../../assets/img/password.png';
-import lotus from "../../assets/img/lotus.png";
+import samu from '../../assets/img/samu.png';
+import hermes from '../../assets/img/hermes.png';
+import kirin from '../../assets/img/kirin.png';
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub } from '@fortawesome/free-brands-svg-icons';
@@ -20,18 +15,21 @@ const Projects = () => {
             <div className='projects-container' data-aos="zoom-in" data-aos-duration="1000">
                 <div className='project-individual'>
                     <div className='project-image'>
-                        <a href="https://lotus-akyua.vercel.app/" target='_blank'>
-                            <img src={lotus}></img>
+                        <a href="https://github.com/akyua" target='_blank'>
+                            <img src={samu}></img>
                         </a>
                     </div>
                     <div className="project-info">
-                        <h3>Lotus</h3>
+                        <h3>SAMU</h3>
                         <p>
-                        Lotus é um projeto de portfólio/mostruário de vídeos dinâmico que simula o YouTube/Twitch, com filtros interativos de navegação, modo escuro e opção de adicionar vídeos dentro do mostruário.
+                        Projeto sendo desenvolvido para participação da licitação como novo software/crm que será utilizado pelo samu de Santa Catarina.
+                        Fui responsável pelo desenvolvimento das telas, modais e rotas.
                         </p>
                         <div className="project-technologies">
-                            <p>React</p>
-                            <p>NextJS</p>
+                            <p>VueJS</p>
+                            <p>Javascript</p>
+                            <p>Mariadb</p>
+                            <p>Java</p>
                         </div>
                         <div className="project-links">
                             <a href="https://github.com/akyua/Lotus" target='_blank'>Código <FontAwesomeIcon icon={faGithub} /></a>
@@ -41,41 +39,43 @@ const Projects = () => {
                 </div>
                 <div className='project-individual'>
                     <div className="project-info">
-                        <h3>Secret Number</h3>
-                        <p>Mini-jogo web em que os jogadores usam o microfone para adivinhar o número secreto, exclusivamente suportado no Google Chrome. Esse jogo interativo, totalmente em inglês, demonstra meu conhecimento com consumo de API's e páginas interativas.</p>
+                        <h3>Hermes</h3>
+                        <p>Projeto focado na criação de blog, no qual seja possível fazer criações de posts e que o site atualize em tempo real com utilização de CRUD, além de um sistema de login que seja encriptado.</p>
                         <div className="project-technologies">
-                            <p>HTML</p>
-                            <p>CSS</p>
+                            <p>React</p>
+                            <p>SASS</p>
                             <p>Javascript</p>
-                            <p>API Web Speech</p>
+                            <p>mongodb</p>
                         </div>
                         <div className="project-links">
-                            <a href="https://github.com/akyua/SecretNumber" target='_blank'>Código <FontAwesomeIcon icon={faGithub} /></a>
-                            <a href="https://secret-number-opal.vercel.app" target='_blank'>Site <FontAwesomeIcon icon={faExternalLink} /></a>
+                            <a href="https://github.com/akyua/hermes" target='_blank'>Código <FontAwesomeIcon icon={faGithub} /></a>
+                            <a href="https://github.com/akyua/hermes" target='_blank'>Site <FontAwesomeIcon icon={faExternalLink} /></a>
                         </div>
                     </div>
                     <div className='project-image'>
-                        <a href="https://secret-number-opal.vercel.app" target='_blank'>
-                            <img src={secretnumber}></img>
+                        <a href="https://github.com/akyua/hermes" target='_blank'>
+                            <img src={hermes}></img>
                         </a>
                     </div>
                 </div>
                 <div className='project-individual'>
                     <div className='project-image'>
-                        <a href="https://cronos-akyua.vercel.app/" target='_blank'>
-                            <img  src={cronos}></img>
+                        <a href="https://github.com/akyua/kirin-app" target='_blank'>
+                            <img  src={kirin}></img>
                         </a>
                     </div>
                     <div className="project-info">
-                        <h3>Cronos</h3>
-                        <p>Desenvolvi um projeto web de cronômetro Pomodoro para auxiliar no foco, oferecendo controle sobre os períodos de trabalho e descanso. As configurações personalizáveis permitem ajustar os valores de tempo de acordo com suas preferências.</p>
+                        <h3>Anime Kirin</h3>
+                        <p>Site focado em listagem de Animes, junto com todo um sistema de login, categorização de genero, sistema de buscas e sua propria listagem de animes, por fim, haverá um sistema de rankeamemnto das notas dos animes dadas pelos usuários do site.</p>
                         <div className="project-technologies">
+                            <p>VueJS</p>
                             <p>Javascript</p>
-                            <p>React</p>
+                            <p>SASS</p>
+                            <p>NODEJS</p>
                         </div>
                         <div className="project-links">
-                            <a href="https://github.com/akyua/Cronos" target='_blank'>Código <FontAwesomeIcon icon={faGithub} /></a>
-                            <a href="https://cronos-akyua.vercel.app/" target='_blank'>Site <FontAwesomeIcon icon={faExternalLink} /></a>
+                            <a href="https://github.com/akyua/kirin-app" target='_blank'>Código <FontAwesomeIcon icon={faGithub} /></a>
+                            <a href="https://github.com/akyua/kirin-app/" target='_blank'>Site <FontAwesomeIcon icon={faExternalLink} /></a>
                         </div>
                     </div>
                 </div>
