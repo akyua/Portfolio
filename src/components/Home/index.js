@@ -1,4 +1,4 @@
-import './Home.css';
+import './Home.scss';
 import linkedin from '../../assets/img/linkedin.png';
 import github from '../../assets/img/github.png';
 import Lottie from "lottie-react";

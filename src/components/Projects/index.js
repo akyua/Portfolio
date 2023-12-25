@@ -1,5 +1,4 @@
-import './Projects.css';
-import cronos from '../../assets/img/cronos.png';
+import './Projects.scss';
 import samu from '../../assets/img/samu.png';
 import hermes from '../../assets/img/hermes.png';
 import kirin from '../../assets/img/kirin.png';

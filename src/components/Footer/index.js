@@ -1,4 +1,4 @@
-import './Footer.css';
+import './Footer.scss';
 import footerlinkedin from '../../assets/img/linkedin-footer.png';
 import footergithub from '../../assets/img/github-footer.png';
 

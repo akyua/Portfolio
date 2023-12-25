@@ -1,4 +1,4 @@
-import './Skills.css';
+import './Skills.scss';
 import html from '../../assets/img/html.svg';
 import css from '../../assets/img/css.svg';
 import js from '../../assets/img/js.svg';
