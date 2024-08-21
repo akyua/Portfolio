@@ -9,7 +9,7 @@ const Contacts = () => {
         <section id='contacts'>
             <h2 data-aos="fade-right" data-aos-duration="1000">Contatos</h2>
             <div className='contact-container' data-aos="fade-right" data-aos-duration="1000">
-                <a href="mailto:gabrielnovatoo@gmail.com" target='_blank'>
+                <a href="mailto:gabrielnovatoo@gmail.com" target='_blank' rel="noreferrer">
                     <div className='contact-content'>
                         <span><FontAwesomeIcon icon={faEnvelope} /></span>
                         <div className='contact-info'>
@@ -18,7 +18,7 @@ const Contacts = () => {
                         </div>
                     </div>
                 </a>
-                <a href="https://github.com/akyua" target='_blank'>
+                <a href="https://github.com/akyua" target='_blank' rel="noreferrer">
                     <div className='contact-content'>
                         <span><FontAwesomeIcon icon={faGithub} /></span>
                         <div className='contact-info'>
@@ -27,7 +27,7 @@ const Contacts = () => {
                         </div>
                     </div>
                 </a>
-                <a href="https://linkedin.com/in/gabriel-hs" target='_blank'>
+                <a href="https://linkedin.com/in/gabriel-hs" target='_blank' rel="noreferrer">
                     <div className='contact-content'>
                         <span><FontAwesomeIcon icon={faLinkedin} /></span>
                         <div className='contact-info'>

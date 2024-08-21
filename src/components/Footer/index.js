@@ -10,11 +10,11 @@ const Footer = () => {
                     <p>© Copyright 2023 Gabriel Silveira. All rights are reserved.</p>
                 </div>
                 <aside>
-                    <a href="https://www.linkedin.com/in/gabriel-hs/" target="_blank">
-                        <img src={footerlinkedin}></img>
+                    <a href="https://www.linkedin.com/in/gabriel-hs/" target="_blank" rel="noreferrer">
+                        <img src={footerlinkedin} alt="linkedin"></img>
                     </a>
-                    <a href="https://github.com/akyua" target="_blank">
-                        <img src={footergithub}></img>
+                    <a href="https://github.com/akyua" target="_blank" rel="noreferrer">
+                        <img src={footergithub} alt="github"></img>
                     </a>
                 </aside>
             </div>

@@ -9,7 +9,7 @@ const About = () => {
             <div className='aboutme-container'>
                 <div data-aos="fade-right" data-aos-duration="1000"
     data-aos-easing="ease-in-out" data-aos-once="false">
-                    <img src={foto}/>
+                    <img src={foto} alt="foto"/>
                 </div>
                 <aside  data-aos="fade-right" data-aos-duration="1000"
     data-aos-easing="ease-in-out" data-aos-once="false">
@@ -20,7 +20,7 @@ const About = () => {
                     </p>
                     <a href={curriculum} download>
                         <div>
-                            <img src={download}/>
+                            <img src={download} alt="download"/>
                             <p>Currículo</p>
                         </div>
                     </a>

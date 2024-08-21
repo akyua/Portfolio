@@ -17,15 +17,15 @@ const Home = () => {
                     <h1>Gabriel Silveira</h1>
                     <p id="text-animation">Desenvolvedor Front-end</p>
                     <nav className='button'>
-                        <a href="https://www.linkedin.com/in/gabriel-hs/" target="_blank" className="image-link">
+                        <a href="https://www.linkedin.com/in/gabriel-hs/" target="_blank" rel="noreferrer" className="image-link">
                             <div className='button-link'>
-                                <img src={linkedin} />
+                                <img src={linkedin} alt="linkedin"/>
                                 <p>Linkedin</p>
                             </div>
                         </a>
-                        <a href="https://github.com/akyua" target="_blank" className="image-link">
+                        <a href="https://github.com/akyua" target="_blank" rel="noreferrer" className="image-link">
                             <div className='button-link'>
-                                <img src={github} />
+                                <img src={github} alt="github"/>
                                 <p>Github</p>
                             </div>
                         </a>
