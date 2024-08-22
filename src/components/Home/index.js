@@ -15,7 +15,7 @@ const Home = () => {
             <div className="home-container" data-aos="fade-down" data-aos-duration="1000">
                 <div className="home-description">
                     <h1>Gabriel Silveira</h1>
-                    <p id="text-animation">Desenvolvedor Front-end</p>
+                    <p id="text-animation">Desenvolvedor Full Stack</p>
                     <nav className='button'>
                         <a href="https://www.linkedin.com/in/gabriel-hs/" target="_blank" rel="noreferrer" className="image-link">
                             <div className='button-link'>

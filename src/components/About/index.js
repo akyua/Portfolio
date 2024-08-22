@@ -16,7 +16,7 @@ const About = () => {
                     <h2>Sobre mim</h2>
                     <h3>Biguaçu, Santa Catarina</h3>
                     <p>
-                        Sou um estudante de Ciência da Computação com formação técnica em Telecomunicações. Tenho interesse especial no desenvolvimento front-end, onde já utilizo tecnologias como <strong>React, VueJS, Vite, Tailwind, Bootstrap, SASS, NodeJS e Javascript</strong>. Além disso, hoje em dia utilizo <strong>Java e NodeJS</strong> em algumas aplicações. Meu objetivo é criar interfaces que sejam intuitivas, funcionais e esteticamente atraentes, sempre visando a satisfação do usuário.
+                        Sou um estudante de Ciência da Computação com formação técnica em Telecomunicações. Com experiência em desenvolvimento full stack, onde já utilizo tecnologias como <strong>Java, Spring Boot, JUnit, SQL Server, React, VueJS, Quasar, Bootstrap, SASS, NodeJS e Javascript</strong>. Meu objetivo é criar interfaces que sejam intuitivas, funcionais e esteticamente atraentes, juntamente com uma maior eficiência de consultas e funcionalidades, sempre visando a satisfação do usuário. 
                     </p>
                     <a href={curriculum} download>
                         <div>
