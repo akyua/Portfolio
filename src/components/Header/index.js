@@ -15,7 +15,7 @@ const Header = () => {
       <Navbar.Collapse className="justify-content-end">
         <Nav.Link href="#home" className='nav-link'>Inicio</Nav.Link>
         <Nav.Link href="#aboutme" className='nav-link'>Sobre</Nav.Link>
-        <Nav.Link href="#experience" className='nav-link'>Experiencia</Nav.Link>
+        <Nav.Link href="#experience" className='nav-link'>Experiencias</Nav.Link>
         <Nav.Link href="#projects" className='nav-link'>Projetos</Nav.Link>
         <Nav.Link href="#skills" className='nav-link'>Habilidades</Nav.Link>
         <Nav.Link href="#contacts" className='nav-link'>Contatos</Nav.Link>
