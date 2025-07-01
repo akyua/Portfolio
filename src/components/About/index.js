@@ -1,7 +1,7 @@
 import './About.scss';
 import foto from '../../assets/img/foto.jpg';
 import download from '../../assets/img/download.png';
-import curriculum from '../../assets/img/curriculum.pdf';
+import curriculum from '../../assets/img/Portfolio.pdf';
 
 const About = () => {
     return (

@@ -16,7 +16,7 @@ const Experience = () => {
                     </div>
                     <br/>
                     <div>
-                        <h4>Desenvolvedor Full Stack</h4>
+                        <h4>Desenvolvedor Pleno Full Stack</h4>
                         <p>Junho 2025 - Até o momento</p>
                         <div className="texts">
                             <p>Atuando como Desenvolvedor Full Stack na Paipe, integro a operação dedicada ao CIASC, dando continuidade e evoluindo os projetos estratégicos do DETRAN de Santa Catarina, como Detrannet e Detran Digital. Minhas responsabilidades foram ampliadas para incluir o desenvolvimento de novas APIs que pretendem resolver problemas antigos e também a reescrita de projetos antigos feito em .NET 3.0 para uma versão atualizada feita Spring Boot + Quarkus, além disso, participo ativamente das reuniões de planejamento e definição técnica das soluções.</p>
