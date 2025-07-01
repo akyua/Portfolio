@@ -3,9 +3,9 @@ import html from "../../assets/img/html.svg";
 import css from "../../assets/img/css.svg";
 import js from "../../assets/img/js.svg";
 import sass from "../../assets/img/sass.svg";
-import bootstrap from "../../assets/img/bootstrap.svg";
+import quarkus from "../../assets/img/quarkus.svg";
 import react from "../../assets/img/react.svg";
-import tailwind from "../../assets/img/tailwindcss.svg";
+import kafka from "../../assets/img/kafka.svg";
 import linux from "../../assets/img/linux.svg";
 import junit from "../../assets/img/junit.svg";
 import java from "../../assets/img/java.svg";
@@ -20,7 +20,7 @@ const Skills = () => {
   return (
     <section id="skills">
       <h2 data-aos="fade-up" data-aos-duration="1000">
-        Habilidades
+        Principais Habilidades
       </h2>
       <div
         className="skills-container"
@@ -55,14 +55,6 @@ const Skills = () => {
           <img src={vue} alt="vue-icon"></img>
           <h3>VueJS</h3>
         </div>
-        <div className="skills-box purple">
-          <img src={bootstrap} alt="bootstrap-icon"></img>
-          <h3>Bootstrap</h3>
-        </div>
-        <div className="skills-box marin">
-          <img src={tailwind} alt="tailwind-icon"></img>
-          <h3>Tailwind</h3>
-        </div>
         <div className="skills-box orange">
           <img src={java} alt="java-icon"></img>
           <h3>Java</h3>
@@ -70,6 +62,14 @@ const Skills = () => {
         <div className="skills-box green">
           <img src={spring} alt="spring icon"></img>
           <h3>Spring Boot</h3>
+        </div>
+        <div className="skills-box blue">
+          <img src={quarkus} alt="quarkus icon"></img>
+          <h3>Quarkus</h3>
+        </div>
+        <div className="skills-box gray">
+          <img src={kafka} alt="kafka icon"></img>
+          <h3>Kafka</h3>
         </div>
         <div className="skills-box green">
           <img src={junit} alt="junit icon"></img>
