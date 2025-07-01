@@ -38,6 +38,9 @@
                         height: 340px;
                         object-fit: cover;
                     }
+                    .contain{
+                        object-fit: contain;
+                    }
                 }
             }
             .project-info{

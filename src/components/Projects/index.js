@@ -2,6 +2,7 @@ import './Projects.scss';
 import samu from '../../assets/img/samu.png';
 import hermes from '../../assets/img/hermes.png';
 import kirin from '../../assets/img/kirin.png';
+import studano from '../../assets/img/studano.png';
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub } from '@fortawesome/free-brands-svg-icons';
@@ -15,7 +16,7 @@ const Projects = () => {
                 <div className='project-individual'>
                     <div className='project-image'>
                         <a href="https://github.com/akyua" target='_blank'>
-                            <img src={samu}></img>
+                            <img className='contain' src={samu}></img>
                         </a>
                     </div>
                     <div className="project-info">
@@ -31,9 +32,29 @@ const Projects = () => {
                             <p>Java</p>
                         </div>
                         <div className="project-links">
-                            <a href="https://github.com/akyua/Lotus" target='_blank'>Código <FontAwesomeIcon icon={faGithub} /></a>
-                            <a href="https://lotus-akyua.vercel.app/" target='_blank'>Site <FontAwesomeIcon icon={faExternalLink} /></a>
+                            <span>Código Privado <FontAwesomeIcon icon={faGithub} /></span>
+                            <span>Site Privado <FontAwesomeIcon icon={faExternalLink} /></span>
                         </div>
+                    </div>
+                </div>
+                <div className='project-individual'>
+                    <div className="project-info">
+                        <h3>Studano</h3>
+                        <p>Um aplicativo mobile para android, focado na melhoria de rotinas para estudantes. O aplicativo conta com sistema pomodoro, lista de materias, opção de idioma, graficos e histórico de atividades e notificações pre-definidas pelo estudante.</p>
+                        <div className="project-technologies">
+                            <p>React Native</p>
+                            <p>Typescript</p>
+                            <p>Realm</p>
+                        </div>
+                        <div className="project-links">
+                            <a href="https://github.com/akyua/studano" target='_blank'>Código <FontAwesomeIcon icon={faGithub} /></a>
+                            <a href="https://github.com/akyua/studano/releases/latest" target='_blank'>Site do APK <FontAwesomeIcon icon={faExternalLink} /></a>
+                        </div>
+                    </div>
+                    <div className='project-image'>
+                        <a href="https://github.com/akyua/studano" target='_blank'>
+                            <img className='contain' src={studano}></img>
+                        </a>
                     </div>
                 </div>
                 <div className='project-individual'>
