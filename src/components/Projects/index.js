@@ -58,27 +58,6 @@ const Projects = () => {
                     </div>
                 </div>
                 <div className='project-individual'>
-                    <div className="project-info">
-                        <h3>Hermes</h3>
-                        <p>Projeto focado na criação de blog, no qual seja possível fazer criações de posts e que o site atualize em tempo real com utilização de CRUD, além de um sistema de login que seja encriptado.</p>
-                        <div className="project-technologies">
-                            <p>React</p>
-                            <p>SASS</p>
-                            <p>Javascript</p>
-                            <p>mongodb</p>
-                        </div>
-                        <div className="project-links">
-                            <a href="https://github.com/akyua/hermes" target='_blank'>Código <FontAwesomeIcon icon={faGithub} /></a>
-                            <a href="https://github.com/akyua/hermes" target='_blank'>Site <FontAwesomeIcon icon={faExternalLink} /></a>
-                        </div>
-                    </div>
-                    <div className='project-image'>
-                        <a href="https://github.com/akyua/hermes" target='_blank'>
-                            <img src={hermes}></img>
-                        </a>
-                    </div>
-                </div>
-                <div className='project-individual'>
                     <div className='project-image'>
                         <a href="https://github.com/akyua/kirin-app" target='_blank'>
                             <img  src={kirin}></img>
