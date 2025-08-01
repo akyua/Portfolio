@@ -20,10 +20,11 @@ A responsive website showcasing my professional portfolio. Explore my work and g
 
 <div align="center">
 
-![portfolio](https://github.com/akyua/Portfolio/assets/75745796/3a963bc5-d27f-45dc-8e3a-d999fe81d3b2)
-![portfolio2](https://github.com/akyua/Portfolio/assets/75745796/e6387f13-5f85-4c5c-8b89-3f3e3c05ccb8)
-![portfolio3](https://github.com/akyua/Portfolio/assets/75745796/356a488f-a42f-46dd-a33b-3e0abb45a293)
-![portfolio4](https://github.com/akyua/Portfolio/assets/75745796/408895c2-9fe5-481a-9eec-1641a4a2e5b6)
+<img width="2302" height="988" alt="image" src="https://github.com/user-attachments/assets/364c1bdc-6e70-4e06-bef3-dce86e746e03" />
+<img width="2305" height="988" alt="image" src="https://github.com/user-attachments/assets/5aaf9dcb-6406-473d-98d4-676c4416cd08" />
+<img width="2303" height="986" alt="image" src="https://github.com/user-attachments/assets/5f6e1891-6672-477e-bfd4-a4a8e95adf18" />
+<img width="2306" height="877" alt="image" src="https://github.com/user-attachments/assets/445210cd-b26e-4334-b7e2-31cf18818721" />
+<img width="2298" height="870" alt="image" src="https://github.com/user-attachments/assets/21f8dceb-f3cc-4151-a14e-791b5d51418d" />
 
 </div>
 
