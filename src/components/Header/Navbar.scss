@@ -1,7 +1,7 @@
 @import '../../abstract/variables';
 
 .navbar{
-    background-color: rgba(41, 35, 35, 0.664);
+    background-color: $color-header; 
     font-size: calc($font-size / 1.4);
     box-shadow: 0 0 10px rgba(0,0,0,.20);
     justify-content: center;
@@ -34,7 +34,9 @@
 
         }
     }
-    
+    .theme-switcher-btn {
+        margin-left: 20px;
+    }
     
 }
 

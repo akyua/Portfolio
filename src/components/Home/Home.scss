@@ -22,8 +22,6 @@
             }
             
         }
-        .home-description{
-        }
         div{
             display: flex;
             flex-direction: column;
@@ -78,6 +76,12 @@
         }
     }
 }
+
+body.dark-theme {
+    #home {
+      background-color: var(--color-home);
+    }
+  }
 
 @media screen and (max-width: 900px){
     #home{

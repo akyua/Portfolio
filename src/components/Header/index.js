@@ -1,15 +1,20 @@
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-import logo from '../../assets/img/logo.png';
+import logoBlack from '../../assets/img/logo.png';
+import logoWhite from '../../assets/img/logo1.png';
+import ThemeSwitcher from '../ThemeSwitcher/index';
+import { useTheme } from '../../hooks/useTheme';
 import './Navbar.scss';
 
 const Header = () => {
+  const { theme } = useTheme();
+
   return (
-    <Navbar bg="light" variant="light" expand="lg" fixed="top">
+    <Navbar expand="lg" fixed="top">
     <Container>
       <Navbar.Brand href="#home">
-        <img src={logo} alt="logo"/>
+        <img src={theme === 'light' ? logoBlack : logoWhite} alt="logo"/>
       </Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse className="justify-content-end">
@@ -20,6 +25,7 @@ const Header = () => {
         <Nav.Link href="#skills" className='nav-link'>Habilidades</Nav.Link>
         <Nav.Link href="#contacts" className='nav-link'>Contatos</Nav.Link>
       </Navbar.Collapse>
+      <ThemeSwitcher /> 
     </Container>
   </Navbar>
   );

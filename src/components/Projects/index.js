@@ -32,8 +32,8 @@ const Projects = () => {
                             <p>Java</p>
                         </div>
                         <div className="project-links">
-                            <span>Código Privado <FontAwesomeIcon icon={faGithub} /></span>
-                            <span>Site Privado <FontAwesomeIcon icon={faExternalLink} /></span>
+                            <span className='text-private-code'>Código Privado <FontAwesomeIcon icon={faGithub} /></span>
+                            <span className='text-private-code'>Site Privado <FontAwesomeIcon icon={faExternalLink} /></span>
                         </div>
                     </div>
                 </div>
