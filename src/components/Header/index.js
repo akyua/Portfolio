@@ -24,8 +24,8 @@ const Header = () => {
         <Nav.Link href="#projects" className='nav-link'>Projetos</Nav.Link>
         <Nav.Link href="#skills" className='nav-link'>Habilidades</Nav.Link>
         <Nav.Link href="#contacts" className='nav-link'>Contatos</Nav.Link>
+        <ThemeSwitcher /> 
       </Navbar.Collapse>
-      <ThemeSwitcher /> 
     </Container>
   </Navbar>
   );
